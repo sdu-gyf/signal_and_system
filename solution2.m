@@ -11,3 +11,4 @@ name1=strcat('\tau = ',num2str(tau));
 name2=strcat(name1, ',T = ');
 name=strcat(name2,num2str(T));
 title(name)
+end
