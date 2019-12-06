@@ -13,3 +13,4 @@ x=b*sin(2*pi*n'*t);
 subplot(3,2,2),plot(t,x),grid on
 axis([-1,1,-1.5,1.5])
 title(['最大谐波次数=',num2str(n_max)])
+end
