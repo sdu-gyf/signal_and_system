@@ -7,7 +7,6 @@ x=n*tau/T;
 fn=tau/T*sinc(x);
 subplot(311);
 stem(n*w1,fn),grid on
-% name='\tau='+int2string(tau)+', T='+int2string(T);
 name1=strcat('\tau = ',num2str(tau));
 name2=strcat(name1, ',T = ');
 name=strcat(name2,num2str(T));
