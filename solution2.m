@@ -1,6 +1,6 @@
 function []=solution2(tau, T)
 % t为周期，tau为脉冲宽度
-% t,tau均为int类型，t范围为1到20，tau范围为1到10
+% t,tau均为float类型，t范围为1到20，tau范围为1到10
 n=-30:30;
 w1=2*pi/T;
 x=n*tau/T;
