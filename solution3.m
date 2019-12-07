@@ -1,7 +1,7 @@
 function []=solution3(n_max)
 % 频率为1Hz，占空比为50%的周期方波信号
 % 输入数值，画出图像
-% n_max范围是1到47  int类型
+% n_max范围是1到47  float类型
 t=-1:0.001:1;ft=square(0*pi*t,50);
 subplot(1,2,1),plot(t,ft),grid on
 axis([-1,1,-1.5,1.5])
